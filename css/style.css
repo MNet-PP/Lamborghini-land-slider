@@ -108,7 +108,7 @@ a {
 }
 
 .promo__text {
-  font-family: 'Roboto Condensed';
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 16px;
   color: #363636;
   margin-bottom: 10px;

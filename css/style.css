@@ -204,3 +204,182 @@ a {
   padding-bottom: 20px;
 
 }
+
+.track {
+  background-image: url(../images/track-bgjpg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.track__inner {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+}
+
+.track__title {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.track__text {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  max-width: 434px;
+}
+
+.track__img {
+  margin: auto auto 90px auto;
+} 
+
+.evo {
+  font-size: 14px;
+  margin-bottom: 100px;
+}
+
+.evo__black {
+  background-color: #363636;
+  padding: 100px 0 50px;
+  color: #fff;
+}
+
+.evo__black--inner {
+  position: relative;
+}
+
+.evo__black--inner::before {
+  content: "";
+  background-image: url(../images/dec-1.svg); 
+  position: absolute;
+  width: 185px;
+  height: 213px;
+  top: 210px;
+  left: -130px; 
+}
+
+.evo__black--inner::after {
+  content: "";
+  background-image: url(../images/dec-2.svg); 
+  position: absolute;
+  width: 498px;
+  height: 572px;
+  top: 290px;
+  left: -40px; 
+}
+
+
+.evo__black--info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.evo__black--title {
+  padding-right: 50px ;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 300;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.evo__black--infobox {
+  flex-basis: 437px;
+}
+
+.evo__black--text {
+  font-family: 'Roboto Condensed', sans-serif;
+  
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.evo__black--img {
+  display: block;
+  margin: 170px auto 60px;
+  position: relative;
+  z-index: 1;
+}
+
+.evo__descr--list {
+  display: flex;
+  justify-content: center;
+  gap: 0 65px;
+}
+
+.evo__descr--list dd {
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+  
+  font-weight: 400;
+}
+
+.evo__descr--list dt {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.evo__white--inner {
+  padding-top: 125px;
+  position: relative;
+}
+
+.evo__white--inner::before {
+  content: "";
+  background-image: url(../images/dec-3.png); 
+  position: absolute;
+  width: 274px;
+  height: 257px;
+  top: -22px;
+  left: 365px; 
+}
+
+.evo__white--inner::after {
+  content: "";
+  background-image: url(../images/dec-4.png); 
+  position: absolute;
+  width: 324px;
+  height: 311px;
+  top: 118px;
+  left: 617px; 
+}
+
+.evo__white--text {
+  margin-bottom: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+}
+
+.evo__white--text:first-child {
+  max-width: 285px;
+}
+
+.evo__white--text:nth-child(2) {
+  max-width: 437px;
+}
+
+.evo__white--text:nth-child(3) {
+  max-width: 590px;
+}
+
+.evo__white--video {
+  margin-top: 100px;
+  background-image: url(../images/evo-video.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 264px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.evo__white--link span {
+  display: block;
+  color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+}
